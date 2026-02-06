@@ -1,7 +1,6 @@
 {
     "workbench.editor.empty.hint": "hidden",
     "files.autoSaveDelay": 100,
-    "workbench.editor.enablePreview": false,
     "files.autoGuessEncoding": true,
     "editor.cursorBlinking": "smooth",
     "terminal.integrated.smoothScrolling": true,
@@ -47,9 +46,6 @@
     "editor.fontVariations": false,
     "editor.allowVariableFontsInAccessibilityMode": true,
     "editor.codeLensFontFamily": "JetBrains Maple Mono,Consolas, 'Courier New', monospace",
-    "markdown-preview-enhanced.alwaysShowBacklinksInPreview": false,
-    "markdown-preview-enhanced.previewTheme": "github-dark.css",
-    "markdown-preview-enhanced.chromePath": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
     "editor.inlineSuggest.fontFamily": "JetBrains Maple Mono,Consolas, 'Courier New', monospace",
     "debug.console.fontFamily": "JetBrains Maple Mono,Consolas, 'Courier New', monospace",
     "scm.inputFontFamily": "JetBrains Maple Mono,Consolas, 'Courier New', monospace",
@@ -61,8 +57,6 @@
     "fonted.font": "JetBrains Maple Mono,'Courier New', monospace",
     "fonted.fontStretch": "13",
     "window.zoomLevel": 0.1,
-    "markdown-preview-enhanced.revealjsTheme": "black.css",
-    "markdown-preview-enhanced.codeBlockTheme": "auto.css",
     "workbench.colorCustomizations": {
         "editorCursor.foreground": null
     },
@@ -74,7 +68,7 @@
     "editor.codeLensFontSize": 13,
     "workbench.colorTheme": "One Dark Pro Night Flat",
     "git.confirmSync": false,
-    "workbench.iconTheme": "office-material-icon-theme",
+    "workbench.iconTheme": "material-icon-theme",
     "RainbowBrackets.depreciation-notice": false,
     "editor.unfoldOnClickAfterEndOfLine": true,
     "RainbowBrackets.highlightActiveScope": true,
@@ -96,10 +90,7 @@
     "diffEditor.hideUnchangedRegions.enabled": true,
     "explorer.confirmDelete": false,
     "terminal.integrated.accessibleViewPreserveCursorPosition": true,
-    "terminal.integrated.cursorStyle": "line",
     "vscode-office.previewCodeHighlight.style": "vs",
-    "liveshare.shareExternalFiles": false,
-    "liveshare.launcherClient": "visualStudioCode",
     "chat.mcp.gallery.enabled": true,
     "editor.acceptSuggestionOnCommitCharacter": false,
     "editor.acceptSuggestionOnEnter": "off",
@@ -112,5 +103,17 @@
     "editor.accessibilitySupport": "off",
     "files.associations": {
         "*.code-profile": "json"
+    },
+    "python.terminal.focusAfterLaunch": true,
+    "window.newWindowProfile": "默认",
+    "[python]": {
+        "diffEditor.ignoreTrimWhitespace": false
+    },
+    "diffEditor.renderSideBySide": true,
+    "diffEditor.experimental.showMoves": true,
+    "workbench.editor.enablePreview": false,
+    "explorer.confirmDragAndDrop": false,
+    "[markdown]": {
+        "editor.defaultFormatter": "mervin.markdown-formatter"
     }
 }
